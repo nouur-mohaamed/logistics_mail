@@ -1,0 +1,17 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Google Cloud & API Service Account Keys
+credentials.json
+*.json
+
+# Python Virtual Environment
+.venv/
+venv/
+ENV/
+
+# Python Cache & Compiled Files
+__pycache__/
+*.py[cod]
